@@ -1,0 +1,3 @@
+VAR bananaLine = ""
+~ bananaLine = "{~I couldn't decide between eating the apple or cherry pie. I ate both. My tummy hurts.|Beware of the forest at night... naw, just kidding!|Can you believe I once tried to fish with a carrot? Spoiler: it didn't work.|If you find any enchanted socks, they're mine. Long story.|I invented a new dance move called 'The Epic Fail'; want to learn?|I lost my sandwich in the pond; now the ducks are my enemies|I swear the moon winked at me last night; or maybe I was just sleepy.|The tavern is a good place to get quests. Wait, wrong game.|I put my shoes on the wrong feet today. Again!|Ever see a squirrel do a backflip? Me neither, but I dream big!}"
+{bananaLine} #speaker:Banana_Extravaganza #portrait:Banana #layout:left

@@ -64,7 +64,7 @@ public class DialogueManager : MonoBehaviour
         {
             return;
         }
-        if (Keyboard.current.fKey.wasPressedThisFrame)
+        if (InputManager.GetInstance().GetSubmitPressed())
         {
             ContinueStory();
         }

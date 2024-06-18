@@ -16,6 +16,8 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (DialogueManager.GetInstance().dialogueIsPlaying)
+        {return;}
         rigidbody.velocity = _movementInput * speed;
     }
 

@@ -26,10 +26,6 @@ public class DialogueTrigger : MonoBehaviour
         if (playerInRange && !DialogueManager.GetInstance().dialogueIsPlaying)
         {
             visualCue.SetActive(true);
-            if (Keyboard.current.eKey.wasPressedThisFrame)
-            {
-                DialogueManager.GetInstance().EnterDialogueMode(inkJSON);
-            }
         }
         else{
             visualCue.SetActive(false);
@@ -48,5 +44,10 @@ public class DialogueTrigger : MonoBehaviour
         {
             playerInRange = false;
         }
+    }
+
+    public void EngageInDialogue()
+    {
+        DialogueManager.GetInstance().EnterDialogueMode(inkJSON);
     }
 }
